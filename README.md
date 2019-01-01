@@ -1,5 +1,5 @@
 # Hand Gesture GUI Control
-## Dependancies
+## Dependencies 
 * opencv
 * numpy
 * pyautogui
