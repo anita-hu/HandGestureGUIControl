@@ -18,4 +18,4 @@ Run main.py
 Note: all movement determined relative to green joystick origin position
 
 ## Demo
-![](dinogame.gif)
+![](demo/dinogame.gif)
