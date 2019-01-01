@@ -33,7 +33,7 @@ def main():
             hand = frame[height//4:height//4*3,width//3*2:width]
             output, fingers, dx, dy = image_opr(hand, lower_hsv, higher_hsv)
             task_done, key_mode = controls(fingers, dx, dy, task_done, key_mode)
-            cv2.imshow("Hand ROI", cv2.resize(output, (640, 480)))
+            cv2.imshow("Hand ROI", cv2.resize(output, (427, 310)))
 
         else:
             print("use trackbars to configure mask")

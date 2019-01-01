@@ -16,3 +16,6 @@ Run main.py
 * 5 fingers to move mouse
 * Press ESC to exit
 Note: all movement determined relative to green joystick origin position
+
+## Demo
+![](dinogame.gif)

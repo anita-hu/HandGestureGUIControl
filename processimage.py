@@ -78,11 +78,6 @@ def image_opr(frame, lower_hsv, higher_hsv):
                     if distance(start, center) > 100 and start not in finger_pts and start[1] <= center[1]+distance(far, center):
                         finger_pts.append(start)
 
-                    # cv2.line(frame,start,end,[0,255,0],2)
-                    # cv2.line(frame,start,far,[255,0,0],2)
-                    # cv2.line(frame,end,far,[255,0,0],2)
-                    cv2.circle(frame,far,5,[0,0,255],-1)
-
                 for pts in finger_pts:
                     cv2.circle(frame,pts,10,[0,100,255],-1)
 
@@ -99,7 +94,7 @@ def image_opr(frame, lower_hsv, higher_hsv):
                     joystick_y -= 30
         cv2.circle(frame, (joystick_x,joystick_y), 15, (0, 255, 0), -1)
     else:
-        print("place hand in rectangle")
+        print("Hand not in rectangle")
 
     cv2.putText(frame,('Fingers: %d' % len(finger_pts)),(20,50), font, 1,(255,0,255),2,cv2.LINE_AA)
 
