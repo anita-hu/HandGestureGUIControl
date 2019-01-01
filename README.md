@@ -3,8 +3,8 @@
 Run main.py
 1. Set up skin colour hsv mask using trackbars
 2. Press q to continue
-* 0 fingers to drag mouse or move arrow keys (change mode)
-* 1 finger to single click or press space bar if within center circle (change mode)
+* 0 fingers to drag mouse or move arrow keys (change to keyboard mode)
+* 1 finger to single click or press space bar if within center circle (change to keyboard mode)
 * 2 fingers to double click
 * 3 fingers to mouse scroll
 * 4 fingers to change modes (mouse control or keyboard control)
